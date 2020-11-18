@@ -39,7 +39,7 @@ public class x50 extends x70 {
 	
 	
 	void ChColor(String a,String b,String c) {//overload
-		System.out.println("Color: "+a+" "+b+" with "+c+"Decal");
+		System.out.println("Color: "+a+" "+b+" with "+c+" Decal");
 	} 
 	
 	

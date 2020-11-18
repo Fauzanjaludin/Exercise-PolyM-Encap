@@ -1,6 +1,6 @@
 
 Enter Model (lowercase):x50 //user input
-Proton X50
+Proton X50 
 brand of tyre: Dunlop Size 16
 This car has Auto Park
 This car is an SUV
@@ -11,11 +11,11 @@ The vehicle is running!
 The x50 is Running!
 Transmission : 7 speed Auto 
 Enter color (White,Red,Silver):
-silver	//user input
-Chosen Color:silver	
+red	//user input
+Chosen Color:red
 Enter color type Metallic,matte,standard:
 matte	//user input
-Color: silver matte
+Color: red matte
 Enter decal (Modern,None):
 modern	//user input
-Color: silver matte with modern
+Color: red matte with modern Decal
