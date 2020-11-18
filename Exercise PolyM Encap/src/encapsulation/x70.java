@@ -48,4 +48,19 @@ private String carheight;
 		System.out.println("Transmission : 7 speed Auto ");
 		
 	}
+	void ChColor(String a,String b) {
+		
+		System.out.println("Color: "+a+" "+b);
+	} 
+	
+	String[] Color() {//overload with polymorphism
+		
+		String[] x=super.Color();
+		System.out.println("Enter color type Metallic,matte,standard:");
+		String Ctype= fet.nextLine();
+		ChColor(x[0],Ctype);
+		return new String[] {x[0],Ctype};
+		 
+		}
+	
 }

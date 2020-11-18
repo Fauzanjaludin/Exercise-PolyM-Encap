@@ -1,8 +1,12 @@
 package encapsulation;
 
+import java.util.Scanner;
+
 public class proton {
 	String brand;
 	int tyre;
+	
+	Scanner fet=new Scanner(System.in);
 	
 	proton(){
 	this.brand="Goodyear";
@@ -45,8 +49,21 @@ public class proton {
 		System.out.println("Price :"+(a1+a2+a3));
 	}	
 	
-	void defColor() {
-		System.out.println("default color: Milky White");
+	 void ChColor(String a) {
+	System.out.println("Chosen Color:"+a);
 	}
-	
+	 
+	String[] Color() {
+		
+		System.out.println("Enter color (White,Red,Silver):");
+		
+		String color= fet.nextLine();
+		
+		
+		
+		ChColor(color);
+		return new String[] {color};
+		
+		
+	}
 }

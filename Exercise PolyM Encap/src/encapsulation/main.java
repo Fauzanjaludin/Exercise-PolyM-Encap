@@ -1,22 +1,25 @@
 package encapsulation;
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class main {
 
 
 		public static void main(String[] args) {
-			//Scanner myObj = new Scanner(System.in);
+			Scanner myObj = new Scanner(System.in);
 			saga s=new saga();
-			//System.out.print("Enter Model (lowercase):");
+			System.out.print("Enter Model (lowercase):");
 			
-			//String name = myObj.next();
-			
-			//myObj.close();
+			String name = myObj.next();
 			
 			
-			//switch(name) {
-			//case "saga":
+			
+			
+			
+			
+			
+			switch(name) {
+			case "saga":
 			System.out.println("Proton Saga");
 			s.wheels();
 			s.FuelEffiecient();
@@ -27,11 +30,12 @@ public class main {
 			System.out.println("Radio Brand: "+s.getradio());//getter
 			s.run();//polymorph
 			s.price(16,57);
-			s.defColor();
-			s.transmission();//polymorph
-			//break;
 			
-			//case "x70":
+			s.transmission();//polymorph
+			s.Color();
+			break;
+			
+			case "x70":
 			x70 x=new x70();
 			
 			System.out.println("Proton X70");
@@ -41,35 +45,35 @@ public class main {
 			x.petrol();
 			x.powerwindow();
 			x.price(16,57,99);
-			x.defColor();
 			x.setcheight("1.69 m");//setter
 			x.run();//polymorph
 			x.transmission();//polymorph
 			System.out.println("Car height : "+x.getcheight());//getter
+			x.Color();
 			
-			//break;
+			break;
 			
-			//case "x50":
+			case "x50":
 			System.out.println("Proton X50");
 			x50 x5=new x50();
 			x5.tyre();
 			x5.feat();
 			x5.petrol();
 			x5.price(69,420,360);
-			x5.defColor();
 			x5.setglass("A+");//setter
 			System.out.println("Window glass Quality : "+x5.getglass());//getter
 			x5.run();//polymorph
 			x5.transmission();//polymorph
-			//break;
+			x5.Color();
+			break;
 			
-			//default:
-				//System.out.println("Wrong");
-			//break;
+			default:
+				System.out.println("Wrong");
+			break;
 			
-		//}
+		}
 			
-	
+			myObj.close();
 
 	
 		
