@@ -23,12 +23,12 @@ public class main {
 			s.petrol();
 			s.powerwindow();
 			s.tyresaga();
-			s.setradio("Tek");
-			System.out.println("Radio Brand: "+s.getradio());
-			s.run();
+			s.setradio("Tek");//setter
+			System.out.println("Radio Brand: "+s.getradio());//getter
+			s.run();//polymorph
 			s.price(16,57);
 			s.defColor();
-			s.transmission();
+			s.transmission();//polymorph
 			//break;
 			
 			//case "x70":
@@ -42,10 +42,10 @@ public class main {
 			x.powerwindow();
 			x.price(16,57,99);
 			x.defColor();
-			x.setcheight("1.69 m");
-			x.run();
-			x.transmission();
-			System.out.println("Car height : "+x.getcheight());
+			x.setcheight("1.69 m");//setter
+			x.run();//polymorph
+			x.transmission();//polymorph
+			System.out.println("Car height : "+x.getcheight());//getter
 			
 			//break;
 			
@@ -57,10 +57,10 @@ public class main {
 			x5.petrol();
 			x5.price(69,420,360);
 			x5.defColor();
-			x5.setglass("A+");
-			System.out.println("Window glass Quality : "+x5.getglass());
-			x5.run();
-			x5.transmission();
+			x5.setglass("A+");//setter
+			System.out.println("Window glass Quality : "+x5.getglass());//getter
+			x5.run();//polymorph
+			x5.transmission();//polymorph
 			//break;
 			
 			//default:
